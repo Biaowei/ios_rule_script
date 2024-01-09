@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,arbitrum.io
 DOMAIN-SUFFIX,asproex.com
 DOMAIN-SUFFIX,asproexapi.com
 DOMAIN-SUFFIX,avax.network
+DOMAIN-SUFFIX,bakeryswap.org
 DOMAIN-SUFFIX,bibox.com
 DOMAIN-SUFFIX,bisq.io
 DOMAIN-SUFFIX,bisq.network
@@ -151,6 +152,7 @@ DOMAIN-SUFFIX,mdex.co
 DOMAIN-SUFFIX,mdex.com
 DOMAIN-SUFFIX,mdex.me
 DOMAIN-SUFFIX,mdex.one
+DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,mexc.com
 DOMAIN-SUFFIX,myetherwallet.com
 DOMAIN-SUFFIX,nansen.ai
@@ -202,7 +204,6 @@ DOMAIN-SUFFIX,zb.io
 DOMAIN-SUFFIX,zb.live
 DOMAIN-SUFFIX,zkscan.io
 DOMAIN-SUFFIX,zksync.io
-DOMAIN-KEYWORD,binance
+DOMAIN-SUFFIX,unisat.io
 DOMAIN-KEYWORD,huobi
 DOMAIN-KEYWORD,metamask
-DOMAIN-KEYWORD,okx
