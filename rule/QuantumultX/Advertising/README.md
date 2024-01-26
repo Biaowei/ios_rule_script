@@ -15,17 +15,17 @@
 
 ## 规则统计
 
-最后更新时间：2024-01-09 02:09:45
+最后更新时间：2024-01-26 02:57:44
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| HOST | 18099  | 
+| HOST | 16249  | 
 | HOST-KEYWORD | 115  | 
-| HOST-SUFFIX | 98182  | 
+| HOST-SUFFIX | 114382  | 
 | HOST-WILDCARD | 1  | 
 | IP-CIDR | 428  | 
-| TOTAL | 116825  | 
+| TOTAL | 131175  | 
 
 
 ## QuantumultX 
@@ -100,12 +100,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list
-- https://ruleset.isagood.day/openaireject.conf
-- https://ruleset.isagood.day/reject.conf
-- https://ruleset.isagood.day/reject_domain.conf
-- https://ruleset.isagood.day/reject_domain1.conf
-- https://ruleset.isagood.day/reject_drop.conf
-- https://ruleset.isagood.day/reject_tinygif.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

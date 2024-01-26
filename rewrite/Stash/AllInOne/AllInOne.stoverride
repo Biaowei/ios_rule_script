@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-01-08 16:03:13
+desc: 最后更新时间 2024-01-26 03:07:03
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 693
-# mitm: 732
+# reject: 698
+# mitm: 734
 # force-http-engine-hosts: 6
-# total: 1470
+# total: 1477
 
 
 
@@ -155,6 +155,7 @@ http:
     - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do - reject
     - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show - reject
     - ^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v2\/ads - reject
+    - ^https?:\/\/ad\.lofter\.com\/.*yitou\/madr - reject
     - ^https?:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos$ - reject
     - ^https?:\/\/adapi\.izuiyou\.com\/ - reject
     - ^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend - reject
@@ -228,6 +229,7 @@ http:
     - ^https?:\/\/api\.kkmh\.com\/v\d+\/(ad|advertisement)\/ - reject
     - ^https?:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/(resource|banner) - reject
     - ^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads - reject
+    - ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=home_launchConfig - reject
     - ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start - reject
     - ^https?:\/\/api\.m\.jd\.com\/openUpgrade - reject
     - ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
@@ -310,6 +312,7 @@ http:
     - ^https?:\/\/asp\.cntv\.myalicdn\.com\/.+?\?maxbr=850 - reject
     - ^https?:\/\/atrace\.chelaile\.net\.cn\/adpub\/ - reject
     - ^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image - reject
+    - ^https?:\/\/axxd\.xmseeyouyima\.com\/v\d\/getad - reject
     - ^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/ - reject
     - ^https?:\/\/b\.appsimg\.com\/upload\/momin\/ - reject
     - ^https?:\/\/bbs-api\.miyoushe\.com\/apihub\/api\/getAppSplash - reject
@@ -378,6 +381,7 @@ http:
     - ^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv - reject
     - ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/user\/teenager\/status - reject
     - ^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService - reject
+    - ^https?:\/\/entree-ws\.igetget\.com\/oms\/front\/start\/push - reject
     - ^https?:\/\/entry\.ubixioe\.com\/mob\/sdk\/v\d\/endpoint - reject
     - ^https?:\/\/esdk\.tymcdn\.com\/dbGold\/m\/v2\/mobileLiveReveal\.do\? - reject
     - ^https?:\/\/evs\.500\.com\/esinfo\/loading\/loading - reject
@@ -521,6 +525,7 @@ http:
     - ^https?:\/\/mob\.bz\.mgtv\.com\/odin\/c1\/channel\/ads\?_ - reject
     - ^https?:\/\/mob\.mddcloud\.com\.cn\/adApi\/advert - reject
     - ^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/ - reject
+    - ^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.php - reject
     - ^https?:\/\/mobi\.360doc\.com\/v\d{2}\/Ajax\/festival\.ashx\?op=getfestivaltheme - reject
     - ^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ - reject
     - ^https?:\/\/mobile\.api\.mgtv\.com\/mobile\/config\?_support - reject
@@ -938,6 +943,7 @@ http:
     - "*.kingsoft-office-service.com"
     - "*.kwcdn.kuwo.cn"
     - "*.laichon.com"
+    - "*.mting.info"
     - "*.musical.ly"
     - "*.nfmovies.com"
     - "*.ott.cibntv.net"
@@ -951,6 +957,7 @@ http:
     - "*.tipatipa.xyz"
     - "*.tslt.xyz"
     - "*.tv.sohu.com"
+    - "*.umetrip.com"
     - "*.uve.weibo.com"
     - "*.v2ex.com"
     - "*.weibo.cn"
@@ -994,6 +1001,7 @@ http:
     - "act.vip.iqiyi.com"
     - "activity2.api.ofo.com"
     - "ad.12306.cn"
+    - "ad.lofter.com"
     - "ad.maoyan.com"
     - "ad.mcloud.139.com"
     - "ad.xiaotucc.com"
@@ -1146,6 +1154,7 @@ http:
     - "appwk.baidu.com"
     - "asp.cntv.myalicdn.com"
     - "awg.enmonster.com"
+    - "axxd.xmseeyouyima.com"
     - "b-api.ins.miaopai.com"
     - "b.appsimg.com"
     - "b.zhuishushenqi.com"
@@ -1205,11 +1214,9 @@ http:
     - "customer-app.sto.cn"
     - "d.syshhc.top"
     - "daoyu.sdo.com"
-    - "dapis.mting.info"
     - "data-collector.soulapp.cn"
     - "dict-mobile.iciba.com"
     - "dili.bdatu.com"
-    - "discardrp.umetrip.com"
     - "dispatcher.camera360.com"
     - "djcapp.game.qq.com"
     - "dl-cu-hz.lechange.cn"
@@ -1229,6 +1236,7 @@ http:
     - "edith.xiaohongshu.com"
     - "emdcadvertise.eastmoney.com"
     - "emdcadvise.eastmoney.com"
+    - "entree-ws.igetget.com"
     - "entry.ubixioe.com"
     - "esdk.tymcdn.com"
     - "evs.500.com"
@@ -1299,7 +1307,6 @@ http:
     - "img.jiemian.com"
     - "img.meituan.net"
     - "img.rr.tv"
-    - "img.umetrip.com"
     - "img2.autoimg.cn"
     - "interface*.music.163.com"
     - "intl.iqiyi.com"
@@ -1374,6 +1381,7 @@ http:
     - "mob.bz.mgtv.com"
     - "mob.mddcloud.com"
     - "mob.mddcloud.com.cn"
+    - "mobads.baidu.com"
     - "mobi.360doc.com"
     - "mobile-api.imlaidian.com"
     - "mobile-api2011.elong.com"
@@ -1483,7 +1491,6 @@ http:
     - "sso.ifanr.com"
     - "sso.lxjapp.com"
     - "ssp.dzh.com.cn"
-    - "startup.umetrip.com"
     - "static.vuevideo.net"
     - "static1.keepcdn.com"
     - "status.boohee.com"

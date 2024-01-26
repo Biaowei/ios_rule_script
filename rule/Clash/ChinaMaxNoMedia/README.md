@@ -12,24 +12,25 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-09 02:18:53
+最后更新时间：2024-01-26 03:05:21
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 543  | 
 | DOMAIN-KEYWORD | 12  | 
-| DOMAIN-SUFFIX | 66313  | 
-| IP-CIDR | 6975  | 
-| IP-CIDR6 | 3584  | 
+| DOMAIN-SUFFIX | 66689  | 
+| IP-CIDR | 6997  | 
+| IP-CIDR6 | 3455  | 
 | PROCESS-NAME | 14  | 
-| TOTAL | 77441  | 
+| TOTAL | 77710  | 
 
 
 ## Clash 
 
 #### 使用说明
 - ChinaMaxNoMedia.yaml，请使用 behavior: "classical"。
+- ChinaMaxNoMedia_Resolve.yaml，请使用 behavior: "classical"。
 - ChinaMaxNoMedia_Classical.yaml，请使用 behavior: "classical"。
 - ChinaMaxNoMedia_Domain.yaml，请使用 behavior: "domain"。
 - ChinaMaxNoMedia_IP.yaml，请使用 behavior: "ipcidr"。

@@ -15,29 +15,30 @@ ChinaMax排除相关IP规则版本
 
 ## 规则统计
 
-最后更新时间：2024-01-09 02:18:17
+最后更新时间：2024-01-25 03:06:38
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 547  | 
 | DOMAIN-KEYWORD | 14  | 
-| DOMAIN-SUFFIX | 66413  | 
+| DOMAIN-SUFFIX | 66790  | 
 | PROCESS-NAME | 14  | 
-| TOTAL | 66988  | 
+| TOTAL | 67365  | 
 
 
 ## Clash 
 
 #### 使用说明
 - ChinaMaxNoIP.yaml，请使用 behavior: "classical"。
+- ChinaMaxNoIP_Resolve.yaml，请使用 behavior: "classical"。
 - ChinaMaxNoIP_Classical.yaml，请使用 behavior: "classical"。
 - ChinaMaxNoIP_Domain.yaml，请使用 behavior: "domain"。
 
 #### 配置建议
-- ChinaMaxNoIP_Domain.yaml 单独使用。
 - ChinaMaxNoIP_Classical.yaml 单独使用。
 - ChinaMaxNoIP.yaml、ChinaMaxNoIP_Domain.yaml 共同使用。
+- ChinaMaxNoIP_Resolve.yaml、ChinaMaxNoIP_Domain.yaml 共同使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**

@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-01-08 16:03:23
+desc: 最后更新时间 2024-01-26 03:10:33
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 546
-# mitm: 452
+# reject: 551
+# mitm: 457
 # force-http-engine-hosts: 6
-# total: 1004
+# total: 1014
 
 
 
@@ -71,6 +71,7 @@ http:
     - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do - reject
     - ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show - reject
     - ^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v2\/ads - reject
+    - ^https?:\/\/ad\.lofter\.com\/.*yitou\/madr - reject
     - ^https?:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos$ - reject
     - ^https?:\/\/adapi\.izuiyou\.com\/ - reject
     - ^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend - reject
@@ -132,6 +133,7 @@ http:
     - ^https?:\/\/api\.kkmh\.com\/v\d+\/(ad|advertisement)\/ - reject
     - ^https?:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/(resource|banner) - reject
     - ^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads - reject
+    - ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=home_launchConfig - reject
     - ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
     - ^https?:\/\/api\.meipian\.me.+?advert - reject
     - ^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage - reject
@@ -201,6 +203,7 @@ http:
     - ^https?:\/\/asp\.cntv\.myalicdn\.com\/.+?\?maxbr=850 - reject
     - ^https?:\/\/atrace\.chelaile\.net\.cn\/adpub\/ - reject
     - ^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image - reject
+    - ^https?:\/\/axxd\.xmseeyouyima\.com\/v\d\/getad - reject
     - ^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/ - reject
     - ^https?:\/\/b\.appsimg\.com\/upload\/momin\/ - reject
     - ^https?:\/\/bbs-api\.miyoushe\.com\/apihub\/api\/getAppSplash - reject
@@ -265,6 +268,7 @@ http:
     - ^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/ - reject
     - ^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv - reject
     - ^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService - reject
+    - ^https?:\/\/entree-ws\.igetget\.com\/oms\/front\/start\/push - reject
     - ^https?:\/\/entry\.ubixioe\.com\/mob\/sdk\/v\d\/endpoint - reject
     - ^https?:\/\/esdk\.tymcdn\.com\/dbGold\/m\/v2\/mobileLiveReveal\.do\? - reject
     - ^https?:\/\/evs\.500\.com\/esinfo\/loading\/loading - reject
@@ -391,6 +395,7 @@ http:
     - ^https?:\/\/mm\.app\.joox\.com\/retrieval\/getAd - reject
     - ^https?:\/\/mob\.mddcloud\.com\.cn\/adApi\/advert - reject
     - ^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/ - reject
+    - ^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.php - reject
     - ^https?:\/\/mobi\.360doc\.com\/v\d{2}\/Ajax\/festival\.ashx\?op=getfestivaltheme - reject
     - ^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ - reject
     - ^https?:\/\/mobileapi-v6\.elong\.com\/adgateway\/ - reject
@@ -583,6 +588,7 @@ http:
     - "acs.m.taobao.com"
     - "act.vip.iqiyi.com"
     - "activity2.api.ofo.com"
+    - "ad.lofter.com"
     - "ad.mcloud.139.com"
     - "adapi.izuiyou.com"
     - "adm.10jqka.com.cn"
@@ -640,6 +646,7 @@ http:
     - "api.kkmh.com"
     - "api.kmovie.gifshow.com"
     - "api.laifeng.com"
+    - "api.m.jd.com"
     - "api.m.mi.com"
     - "api.meipian.me"
     - "api.mgzf.com"
@@ -703,6 +710,7 @@ http:
     - "appwk.baidu.com"
     - "asp.cntv.myalicdn.com"
     - "atrace.chelaile.net.cn"
+    - "axxd.xmseeyouyima.com"
     - "b-api.ins.miaopai.com"
     - "b.appsimg.com"
     - "b.zhuishushenqi.com"
@@ -767,6 +775,7 @@ http:
     - "easyreadfs.nosdn.127.net"
     - "edit.sinaapp.com"
     - "emdcadvertise.eastmoney.com"
+    - "entree-ws.igetget.com"
     - "entry.ubixioe.com"
     - "esdk.tymcdn.com"
     - "evs.500.com"
@@ -871,6 +880,7 @@ http:
     - "mlol.qt.qq.com"
     - "mm.app.joox.com"
     - "mob.mddcloud.com.cn"
+    - "mobads.baidu.com"
     - "mobi.360doc.com"
     - "mobile-pic.cache.iciba.com"
     - "mobile.laichon.com"

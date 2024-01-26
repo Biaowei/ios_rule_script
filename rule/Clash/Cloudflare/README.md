@@ -12,7 +12,7 @@ Cloudflare规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-01-09 02:15:37
+最后更新时间：2024-01-21 03:02:55
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -27,9 +27,11 @@ Cloudflare规则由《RULE GENERATOR 规则生成器》自动生成。
 
 #### 使用说明
 - Cloudflare.yaml，请使用 behavior: "classical"。
+- Cloudflare_Resolve.yaml，请使用 behavior: "classical"。
 
 #### 配置建议
 - Cloudflare.yaml 单独使用。
+- Cloudflare_Resolve.yaml 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -69,7 +71,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Cloudflare.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Cloudflare.yaml
 - https://rules.kr328.app/cloudflare.yaml
-- https://rules.kr328.app/cloudflare@cn.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。
