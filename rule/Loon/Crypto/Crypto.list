@@ -124,8 +124,6 @@ DOMAIN-SUFFIX,filecoin.io
 DOMAIN-SUFFIX,flashbots.net
 DOMAIN-SUFFIX,fragment.com
 DOMAIN-SUFFIX,ftx.com
-DOMAIN-SUFFIX,gate.ac
-DOMAIN-SUFFIX,gate.io
 DOMAIN-SUFFIX,gemini.com
 DOMAIN-SUFFIX,glassnode.com
 DOMAIN-SUFFIX,hbabit.com
@@ -162,12 +160,8 @@ DOMAIN-SUFFIX,nftgo.io
 DOMAIN-SUFFIX,nftscan.com
 DOMAIN-SUFFIX,nonfungible.com
 DOMAIN-SUFFIX,nyctale.io
-DOMAIN-SUFFIX,okex.com
-DOMAIN-SUFFIX,okx.com
-DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,opensea.io
 DOMAIN-SUFFIX,optimism.io
-DOMAIN-SUFFIX,pancakeswap.com
 DOMAIN-SUFFIX,pancakeswap.finance
 DOMAIN-SUFFIX,parity.io
 DOMAIN-SUFFIX,paxful.com
@@ -207,6 +201,4 @@ DOMAIN-SUFFIX,zb.live
 DOMAIN-SUFFIX,zkscan.io
 DOMAIN-SUFFIX,zksync.io
 DOMAIN-SUFFIX,unisat.io
-DOMAIN-KEYWORD,huobi
 DOMAIN-KEYWORD,metamask
-DOMAIN-KEYWORD,mexc
